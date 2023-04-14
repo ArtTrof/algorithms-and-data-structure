@@ -1,5 +1,5 @@
 package sorting;
-
+//O(N^2)
 public class BubbleSorting {
     public static void main(String[] args) {
         int[]arr = new int[]{2,4,14,2,5};
