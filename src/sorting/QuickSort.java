@@ -1,6 +1,7 @@
 package sorting;
 
-//same as binary search but it's sorting
+//same as binary search, but it's sorting
+//O(N logN)
 public class QuickSort {
     public static void main(String[] args) {
         int[] sortArr = {12, 6, 4, 1, 15, 10};
