@@ -1,5 +1,5 @@
 package sorting;
-
+//О(n2)
 public class SelectionSort {
     public static void main(String[] args) {
         int[] sortArr = {12, 6, 4, 1, 15, 10};
