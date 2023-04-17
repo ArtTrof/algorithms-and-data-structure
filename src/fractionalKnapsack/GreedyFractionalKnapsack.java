@@ -3,7 +3,7 @@ package fractionalKnapsack;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class FractionalKnapsack {
+public class GreedyFractionalKnapsack {
     public static void main(String[] args) {
         final Item item1 = new Item(4, 20);
         final Item item2 = new Item(3, 18);
