@@ -19,6 +19,7 @@ public class InsertionSort {
                 //elements of sorted part moving forward,if their value is bigger then element for insertion
                 sortArr[j] = sortArr[j - 1];
             }
+
             sortArr[j] = swap;
         }
     }
