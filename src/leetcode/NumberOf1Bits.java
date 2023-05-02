@@ -12,10 +12,9 @@ package leetcode;
  */
 public class NumberOf1Bits {
     public static void main(String[] args) {
-        System.out.println(hammingWeight(00000000000000000000000000001011));
-    }
 
-    public static int hammingWeight(int n) {
+    }
+    public  int numberOfBits(int n){
         int counter = 0;
         for (int i = 0; i < 32; i++) {
             if ((n & 1) == 1) counter++;
